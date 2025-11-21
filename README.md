@@ -1,4 +1,4 @@
-# Personal Expense Tracker
+# Expense Tracker
 
 **Domain:** Finance & Banking  
 **Course:** Vityarthi Python Programming
