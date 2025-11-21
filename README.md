@@ -27,13 +27,11 @@ We will break the program into specific functions to keep the code clean.
 •	clear_history(): Deletes the content of the file.
 ________________________________________
 Phase 4: Algorithm Development (Pseudocode)
-Plaintext
 START
   Create file 'expenses.txt' if it doesn't exist
   LOOP forever:
     Display Menu (1. Add, 2. View, 3. Total, 4. Clear, 5. Exit)
     Get User Choice
-    
     IF Choice is 1:
       Ask for Expense Name and Amount
       Append "Name,Amount" to file
@@ -65,6 +63,6 @@ Test Case 2: Data Accuracy
 Test Case 3: Persistence
 •	Action: Add an expense. Close the Python program. Run it again. Select "View History".
 •	Expected Result: The expense you added previously should still be there (loaded from the file).
-Screenshots:
+
 
 
