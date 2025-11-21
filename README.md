@@ -61,27 +61,24 @@ START
       Break Loop
   END LOOP
 STOP
+```
 
-Phase 5: Implementation (Python Code)
-The code is located in the file named Expenses_tracker.py.
+## Phase 5: Implementation (Python Code)
+It is in the file named “Expenses_tracker.py”
 
-Phase 6: Testing and Refinement
+---
+
+## Phase 6: Testing and Refinement
 When we run the code, we should perform these tests to ensure it works correctly.
 
-Test Case 1: Input Validation
-Action: Select "Add Expense". Enter "Lunch" for the name and "abc" for the amount.
+**Test Case 1: Input Validation**
+* Action: Select "Add Expense". Enter "Lunch" for the name and "abc" for the amount.
+* Expected Result: The program should catch the error and say "Please enter a valid number" instead of crashing.
 
-Expected Result: The program should catch the error and say "Please enter a valid number" instead of crashing.
+**Test Case 2: Data Accuracy**
+* Action: Add "Pen" (10) and "Notebook" (40). Then select "Show Total Spent".
+* Expected Result: The output should be exactly ₹50.0.
 
-Test Case 2: Data Accuracy
-Action: Add "Pen" (10) and "Notebook" (40). Then select "Show Total Spent".
-
-Expected Result: The output should be exactly ₹50.0.
-
-Test Case 3: Persistence
-Action: Add an expense. Close the Python program. Run it again. Select "View History".
-
-Expected Result: The expense you added previously should still be there (loaded from the file).
-
-
-
+**Test Case 3: Persistence**
+* Action: Add an expense. Close the Python program. Run it again. Select "View History".
+* Expected Result: The expense you added previously should still be there (loaded from the file).
