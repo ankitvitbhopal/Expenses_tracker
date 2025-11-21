@@ -1,0 +1,2 @@
+burgerr = 20.0
+lunch = 20.0
