@@ -34,7 +34,7 @@ START
     Get User Choice
     IF Choice is 1:
       Ask for Expense Name and Amount
-      Append "Name,Amount" to file
+      Append "Name = Amount" to file
     ELSE IF Choice is 2:
       Read file line by line
       Print each line
