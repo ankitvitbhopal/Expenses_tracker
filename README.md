@@ -82,4 +82,5 @@ When we run the code, we should perform these tests to ensure it works correctly
 **Test Case 3: Persistence**
 * Action: Add an expense. Close the Python program. Run it again. Select "View History".
 * Expected Result: The expense you added previously should still be there (loaded from the file).
-**note:- the screenshot og the testing and refinement and how the code run are attached in the file named "screenshot.md"**
+  
+**Note:- The screenshot of the testing, refinement and how to run code are attached in the file named "screenshot.md"**
